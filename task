@@ -1,0 +1,81 @@
+PS C:\Users\Administrator> systeminfo
+
+Host Name:                     EC2AMAZ-UEE5MKE
+OS Name:                       Microsoft Windows Server 2025 Datacenter
+OS Version:                    10.0.26100 N/A Build 26100
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Server
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              EC2
+Registered Organization:       Amazon.com
+Product ID:                    00491-50000-00001-AA332
+Original Install Date:         2/26/2025, 3:41:59 AM
+System Boot Time:              3/2/2025, 9:57:48 AM
+System Manufacturer:           Amazon EC2
+System Model:                  t3.micro
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 85 Stepping 7 GenuineIntel ~2500 Mhz
+BIOS Version:                  Amazon EC2 1.0, 10/16/2017
+Windows Directory:             C:\Windows
+System Directory:              C:\Windows\system32
+Boot Device:                   \Device\HarddiskVolume2
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC) Coordinated Universal Time
+Total Physical Memory:         880 MB
+Available Physical Memory:     23 MB
+Virtual Memory: Max Size:      2,333 MB
+Virtual Memory: Available:     621 MB
+Virtual Memory: In Use:        1,712 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\EC2AMAZ-UEE5MKE
+Hotfix(s):                     4 Hotfix(s) Installed.
+                               [01]: KB5049622
+                               [02]: KB5051987
+                               [03]: KB5050387
+                               [04]: KB5052085
+Network Card(s):               1 NIC(s) Installed.
+                               [01]: Amazon Elastic Network Adapter
+                                     Connection Name: Ethernet
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     172.31.32.1
+                                     IP address(es)
+                                     [01]: 172.31.37.141
+                                     [02]: fe80::9945:8cfd:5ba7:5dd2
+Virtualization-based security: Status: Not enabled
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+PS C:\Users\Administrator>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : EC2AMAZ-UEE5MKE
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ec2.internal
+                                       us-east-1.ec2-utilities.amazonaws.com
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : ec2.internal
+   Description . . . . . . . . . . . : Amazon Elastic Network Adapter
+   Physical Address. . . . . . . . . : 0E-61-02-09-20-9B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::9945:8cfd:5ba7:5dd2%3(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.31.37.141(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Lease Obtained. . . . . . . . . . : Sunday, March 2, 2025 9:58:08 AM
+   Lease Expires . . . . . . . . . . : Sunday, March 2, 2025 11:58:12 AM
+   Default Gateway . . . . . . . . . : 172.31.32.1
+   DHCP Server . . . . . . . . . . . : 172.31.32.1
+   DHCPv6 IAID . . . . . . . . . . . : 84821943
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2F-55-E4-06-0E-61-02-09-20-9B
+   DNS Servers . . . . . . . . . . . : 172.31.0.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
